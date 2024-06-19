@@ -1,0 +1,28 @@
+.main-registro {
+    height: calc(100vh - 150px);
+}
+
+.form__registro {
+    width: 400px;
+    height: 480px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.form__registro input[type="text"], .form__registro input[type="email"], .form__registro input[type="password"] {
+    width: 90%;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+}
+
+.form__registro input[type="text"], .form__registro input[type="email"]:focus, .form__registro input[type="password"]:focus {
+    box-shadow: 0 2px 4px #fff;
+}
+
+.form__registro input[type="submit"] {
+    width: 90%;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    padding: 8px 10px;
+}

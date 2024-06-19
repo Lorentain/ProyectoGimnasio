@@ -1,0 +1,120 @@
+/* INICIO MAIN-HERO */
+
+.main-hero {
+    height: 85vh;
+    background-image: url("../../public/fondo-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor-parrafo {
+    left: 200px;
+    top: 200px;
+}
+
+.btn_apuntate {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 3rem;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 500px;
+    overflow: hidden;
+    background: rgb(168 85 247);
+    color: ghostwhite;
+}
+
+.btn_apuntate span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+.btn_apuntate::before,
+.btn_apuntate::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.btn_apuntate::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.btn_apuntate:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+/* FIN MAIN-HERO */
+
+/* INICIO SECTION-INSCRIPCION */
+
+.instalaciones__img {
+    width: 600px;
+    height: 300px;
+    background-color: gray
+}
+
+/* FIN SECTION-INSCRIPCION */
+
+.cards__nutricion {
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+}
+
+/* INICIO BTN-PRIMARY */
+
+.btn-primary {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.8rem 1.6rem;
+    border: transparent;
+    background: rgb(168 85 247);
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid #fff;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px #fff;
+}
+
+.btn-primary-dark {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.8rem 1.6rem;
+    border: transparent;
+    background: rgb(168 85 247);
+    color: white;
+    border-radius: 4px;
+    border: 2px solid #000;
+}
+
+.btn-primary-dark:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px #000;
+}
+
+/* FIN BTN-PRIMARY */
+
+.dieta__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

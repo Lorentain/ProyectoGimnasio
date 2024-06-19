@@ -1,0 +1,203 @@
+/* Inicio Media Queries - Header */
+
+@media (min-width: 950px) {
+    .menu-escritorio {
+        display: flex !important;
+    }
+
+    .menu-mobile {
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 950px) {
+
+    header {
+        justify-content: space-between;
+    }
+
+    .menu {
+        height: 150px;
+    }
+
+    .menu-escritorio {
+        display: none !important;
+    }
+
+    .menu-li, .btn-menu {
+        display: none !important;
+    }
+
+    .menu-movil {
+        display: flex;
+    }
+
+    .menu:hover .menu-li {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        
+        position: fixed;
+        left: 0;
+        top: 150px;
+        width: 100%;
+        background-color: rgb(88 28 135);
+        border-bottom: 4px solid #fff;
+        z-index: 999;
+    }
+
+    .btn-menu-movil {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1250px) {
+    
+    .menu li a {
+        font-size: calc(1.2rem + 0.5vw) !important;
+    }
+}
+
+/* Fin Media Queries - Header */
+
+/* Inicio Media Queries - Inicio */
+
+@media (max-width: 750px) {
+    .instalaciones__img {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .blog__informacion {
+        gap: 1rem !important;
+    }
+
+    .incripcion {
+        padding: 2rem !important;
+    }
+}
+
+@media (max-width: 1250px) {
+
+    .main-hero {
+        background-image: none !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(88 28 135);
+    }
+
+    .btn_apuntate {
+        border: 2px solid #fff;
+    }
+
+    .contenedor-parrafo {
+        position: unset !important;
+    }
+
+    .inscripcion__titulo {
+        width: auto !important;
+    }
+
+    .blog__informacion {
+        gap: 6rem;
+    }
+
+    .instalaciones__img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* Fin Media Queries - Inicio */
+
+/* Incio Media Queries - Empresa */
+
+@media (max-width: 1000px) {
+    .contenedor__empresa {
+        flex-direction: column !important;
+        padding: 1rem !important;
+    } 
+
+    .empresa__img {
+        width: 100% !important;
+    }
+
+    .contenedor__empresa div {
+        width: 90%;
+    }
+
+}
+
+/* Fin Media Queries - Empresa */ 
+
+/* Inicio Media Queries - Contacto */
+
+@media (max-width: 500px) {
+
+    .main-contacto {
+        height: auto !important;
+    }
+
+    .form__contacto {
+        width: 95% !important;
+        margin-bottom: 1rem;
+    }
+
+    .form__contacto input, .form__contacto textarea {
+        width: 90% !important;
+    }
+}
+
+/* Fin Media Queries - Contacto */
+
+/* Inicio Media Queries - Blog */
+
+@media (max-width: 500px) {
+
+    .contenedor__articulos {
+        flex-direction: column !important;
+    }
+
+    .articulo {
+        width: 100% !important;
+    }
+
+    .form__blog {
+        width: 90% !important;
+    }
+}
+
+/* Fin Media Queries - Blog */
+
+/* Inicio Media Queries - Login y Registro */
+
+@media (max-width: 500px) {
+    .main-login {
+        padding: 1rem;
+    }
+    
+    .form__login {
+        width: 95% !important;
+        padding: 0px !important;
+    }
+
+    .form__registro {
+        width: 95% !important;
+        padding: 0 !important;
+    }
+}
+
+/* Fin Media Queries - Login y Registro */
+
+/* Inicio Media Queries - Mi Cuenta */
+
+@media (max-width: 500px) {
+    .main-cuenta h1 {
+        width: auto !important;
+    }
+}
+
+/* Fin Media Queries - Mi Cuenta */
