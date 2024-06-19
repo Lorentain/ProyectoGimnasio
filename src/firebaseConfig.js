@@ -4,13 +4,13 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCR3CIiB3iuj0ovTWCBh2Dh5rIfCCBc7q4",
-    authDomain: "proyectogimnasio-47211.firebaseapp.com",
-    projectId: "proyectogimnasio-47211",
-    storageBucket: "proyectogimnasio-47211.appspot.com",
-    messagingSenderId: "1025951254070",
-    appId: "1:1025951254070:web:988399e79ea2802cc47a97",
-    measurementId: "G-QY8CJ6LZ5J"
+    apiKey: "NO VISIBLE",
+    authDomain: "NO VISIBLE",
+    projectId: "NO VISIBLE",
+    storageBucket: "NO VISIBLE",
+    messagingSenderId: "NO VISIBLE",
+    appId: "NO VISIBLE",
+    measurementId: "NO VISIBLE"
 };
 
 const app = initializeApp(firebaseConfig);
